@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{69EB8160-8479-4DAB-B2D5-A9CD5A19CD86}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Lab_Csharp_Homework</RootNamespace>
+    <AssemblyName>Lab_Csharp_Homework</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Frm_HW14_Guess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW14_Guess.Designer.cs">
+      <DependentUpon>Frm_HW14_Guess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW14_GuessNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW14_GuessNumber.Designer.cs">
+      <DependentUpon>Frm_HW14_GuessNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW02_LoanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW02_LoanForm.Designer.cs">
+      <DependentUpon>Frm_HW02_LoanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW02_LoanFormReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW02_LoanFormReport.Designer.cs">
+      <DependentUpon>Frm_HW02_LoanFormReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW03_POS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW03_POS.Designer.cs">
+      <DependentUpon>Frm_HW03_POS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW04_StructForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW04_StructForm.Designer.cs">
+      <DependentUpon>Frm_HW04_StructForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW05_StudentsGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW05_StudentsGrade.Designer.cs">
+      <DependentUpon>Frm_HW05_StudentsGrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW06_StudentGrade_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW06_StudentGrade_List.Designer.cs">
+      <DependentUpon>Frm_HW06_StudentGrade_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW07_Method.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW07_Method.Designer.cs">
+      <DependentUpon>Frm_HW07_Method.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW08_MyClac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW08_MyClac.Designer.cs">
+      <DependentUpon>Frm_HW08_MyClac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW10_ScreenSaver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW10_ScreenSaver.Designer.cs">
+      <DependentUpon>Frm_HW10_ScreenSaver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW11_Notepad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW11_Notepad.Designer.cs">
+      <DependentUpon>Frm_HW11_Notepad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW11_NotepadAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW11_NotepadAbout.Designer.cs">
+      <DependentUpon>Frm_HW11_NotepadAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW12_DrawPanint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW12_DrawPanint.Designer.cs">
+      <DependentUpon>Frm_HW12_DrawPanint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW15_Alarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW15_Alarm.Designer.cs">
+      <DependentUpon>Frm_HW15_Alarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Main.Designer.cs">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW01_HelloForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW01_HelloForm.Designer.cs">
+      <DependentUpon>Frm_HW01_HelloForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW09_OXGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW09_OXGame.Designer.cs">
+      <DependentUpon>Frm_HW09_OXGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW13_PictureViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW13_PictureViewer.Designer.cs">
+      <DependentUpon>Frm_HW13_PictureViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility.cs" />
+    <EmbeddedResource Include="Frm_HW14_Guess.resx">
+      <DependentUpon>Frm_HW14_Guess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW14_GuessNumber.resx">
+      <DependentUpon>Frm_HW14_GuessNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW02_LoanForm.resx">
+      <DependentUpon>Frm_HW02_LoanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW02_LoanFormReport.resx">
+      <DependentUpon>Frm_HW02_LoanFormReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW03_POS.resx">
+      <DependentUpon>Frm_HW03_POS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW04_StructForm.resx">
+      <DependentUpon>Frm_HW04_StructForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW05_StudentsGrade.resx">
+      <DependentUpon>Frm_HW05_StudentsGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW06_StudentGrade_List.resx">
+      <DependentUpon>Frm_HW06_StudentGrade_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW07_Method.resx">
+      <DependentUpon>Frm_HW07_Method.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW08_MyClac.resx">
+      <DependentUpon>Frm_HW08_MyClac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW10_ScreenSaver.resx">
+      <DependentUpon>Frm_HW10_ScreenSaver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW11_Notepad.resx">
+      <DependentUpon>Frm_HW11_Notepad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW11_NotepadAbout.resx">
+      <DependentUpon>Frm_HW11_NotepadAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW12_DrawPanint.resx">
+      <DependentUpon>Frm_HW12_DrawPanint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW15_Alarm.resx">
+      <DependentUpon>Frm_HW15_Alarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Main.resx">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW01_HelloForm.resx">
+      <DependentUpon>Frm_HW01_HelloForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW09_OXGame.resx">
+      <DependentUpon>Frm_HW09_OXGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW13_PictureViewer.resx">
+      <DependentUpon>Frm_HW13_PictureViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\screensaver.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgTitle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgHello.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgLoan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whisky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tequila.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
